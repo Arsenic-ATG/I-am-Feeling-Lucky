@@ -1,4 +1,3 @@
-#! Python4
 # lucky.py - searches google and open top results in new tabs
 
 import webbrowser,bs4,sys,requests
@@ -10,8 +9,10 @@ res.raise_for_status()
 soup = bs4.BeautifulSoup(res.text,"html.parser")
 
 # Open a browser tab for each result
-link = soup.select('.r a')
-no_of_tabs = 5
+link = soup.select('.LC20lb DKV0Md a')
+
+#print(link)
+no_of_tabs = min(5,len(link))
 
 for i in range(no_of_tabs):
 	webbrowser.open("https://www.google.com" + link[i].get('href'))
