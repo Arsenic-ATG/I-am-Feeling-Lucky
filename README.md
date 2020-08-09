@@ -14,15 +14,18 @@ This is what your program does:
 - most of the stuff is plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
 - if you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
 
+---
+
 ### Additional python libraries required for this project
 - _beautifulsoup4_
 - _requests_
 
 #### But how do I install additonal packages? 🤨
-- make sure you have python package manager (**pip**) installed on your system
-- go to command line and type ```pip install <library name>``` { _pip3_ on mac }
-- for detailed information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
+1. make sure you have python package manager (**pip**) installed on your system
+2. go to command line and type ```pip install <library name>``` { _pip3_ on mac }
+3. for detailed information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
 
+---
 
 ## 🏃‍♀️Get it running🏃‍♂️
 - 👯‍♂️clone/download using ```git@github.com:Arsenic-ATG/Map-It.git```
