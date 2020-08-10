@@ -30,7 +30,8 @@ This is what your program does:
 ## 🏃‍♀️Get it running🏃‍♂️
 - 👯‍♂️clone/download using ```git@github.com:Arsenic-ATG/Map-It.git```
 - run the python script :
-  pass the 
+   - pass the stuff to be searched through the command line arguments like this : ```python3 lucky.py <thing to search for>```
+     eg ```python3 lucky.py google```
 
 ### Liked it ? 😃
 - if you like this project then don't forget to give a star ⭐️
